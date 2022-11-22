@@ -55,9 +55,7 @@ Router.prototype = {
                     scope.rootElem.innerHTML = this.responseText;
                 }
             };
-            xhttp.setRequestHeader('Access-Control-Allow-Headers', '*');
-            xhttp.setRequestHeader('Content-type', 'application/ecmascript');
-            xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
+            //xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
             xhttp.open('GET', url, true);
             xhttp.send();
         })(this);

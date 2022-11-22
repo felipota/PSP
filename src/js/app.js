@@ -7,6 +7,7 @@
             new Route('about', 'about.html'),
             new Route('products', 'products.html')
         ]);
+        console.log(router);
     }
     init();
 }());
